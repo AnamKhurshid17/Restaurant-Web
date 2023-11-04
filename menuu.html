@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Grilli - Amazing & Delicious Food</title>
+  <meta name="title" content="Grilli - Amazing & Delicious Food">
+  <meta name="description" content="This is a Restaurant html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Grilli</p>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          Quaid Avenue Wah Cantt, Near Officer Colony, Wah Cantt, 47040
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 10.00 am to 12.00 am</span>
+      </div>
+
+      <a href="tel:+0514539983" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">051- 4539983</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">booking@restaurant.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="160" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Menus</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Chefs</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Visit Us</p>
+
+          <address class="body-4">
+            Quaid Avenue Wah Cantt, Near Officer Colony,  <br>
+            Wah Cantt, 47040, Rawalpindi, Pakistan
+          </address>
+
+          <p class="body-4 navbar-text">Open: 10.00 am to 12.00 am</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">booking@grilli.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+9251123456" class="body-1 contact-number hover-underline">
+            +92-51-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+          <section class="h-100 h-custom" style="background-color: #d2c9ff;">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12">
+                  <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                    <div class="card-body p-0">
+                      <div class="row g-0">
+                        <div class="col-lg-8">
+                          <div class="p-5">
+                            <div class="d-flex justify-content-between align-items-center mb-5">
+                              <h1 class="fw-bold mb-0 text-black">Shopping Cart</h1>
+                              <h6 class="mb-0 text-muted">3 items</h6>
+                            </div>
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img5.webp"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Shirt</h6>
+                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">€ 44.00</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img6.webp"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Shirt</h6>
+                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">€ 44.00</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="row mb-4 d-flex justify-content-between align-items-center">
+                              <div class="col-md-2 col-lg-2 col-xl-2">
+                                <img
+                                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img7.webp"
+                                  class="img-fluid rounded-3" alt="Cotton T-shirt">
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-3">
+                                <h6 class="text-muted">Shirt</h6>
+                                <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                              </div>
+                              <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                  <i class="fas fa-minus"></i>
+                                </button>
+          
+                                <input id="form1" min="0" name="quantity" value="1" type="number"
+                                  class="form-control form-control-sm" />
+          
+                                <button class="btn btn-link px-2"
+                                  onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                  <i class="fas fa-plus"></i>
+                                </button>
+                              </div>
+                              <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                <h6 class="mb-0">€ 44.00</h6>
+                              </div>
+                              <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="pt-5">
+                              <h6 class="mb-0"><a href="#!" class="text-body"><i
+                                    class="fas fa-long-arrow-alt-left me-2"></i>Back to shop</a></h6>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 bg-grey">
+                          <div class="p-5">
+                            <h3 class="fw-bold mb-5 mt-2 pt-1">Summary</h3>
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-4">
+                              <h5 class="text-uppercase">items 3</h5>
+                              <h5>€ 132.00</h5>
+                            </div>
+          
+                            <h5 class="text-uppercase mb-3">Shipping</h5>
+          
+                            <div class="mb-4 pb-2">
+                              <select class="select">
+                                <option value="1">Standard-Delivery- €5.00</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                                <option value="4">Four</option>
+                              </select>
+                            </div>
+          
+                            <h5 class="text-uppercase mb-3">Give code</h5>
+          
+                            <div class="mb-5">
+                              <div class="form-outline">
+                                <input type="text" id="form3Examplea2" class="form-control form-control-lg" />
+                                <label class="form-label" for="form3Examplea2">Enter your code</label>
+                              </div>
+                            </div>
+          
+                            <hr class="my-4">
+          
+                            <div class="d-flex justify-content-between mb-5">
+                              <h5 class="text-uppercase">Total price</h5>
+                              <h5>€ 137.00</h5>
+                            </div>
+          
+                            <button type="button" class="btn btn-dark btn-block btn-lg"
+                              data-mdb-ripple-color="dark">Register</button>
+          
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+
+            <form action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Online Reservation</h2>
+
+              <p class="form-text text-center">
+                Booking request <a href="tel:+9251123456" class="link">+92-51-123456</a>
+                or fill out the order form
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="1-person">1 Person</option>
+                    <option value="2-person">2 Person</option>
+                    <option value="3-person">3 Person</option>
+                    <option value="4-person">4 Person</option>
+                    <option value="5-person">5 Person</option>
+                    <option value="6-person">6 Person</option>
+                    <option value="7-person">7 Person</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Book A Table</span>
+
+                <span class="text text-2" aria-hidden="true">Book A Table</span>
+              </button>
+
+            </form>
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Contact Us</h2>
+
+              <p class="contact-label">Booking Request</p>
+
+              <a href="tel:+9251123456" class="body-1 contact-number hover-underline">+92-51-123456</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Location</p>
+
+              <address class="body-4">
+                Quaid Avenue Wah Cantt, Near Officer Colony, <br>
+                Wah Cantt, 47040
+              </address>
+
+              <p class="contact-label">Lunch Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                11.00 am - 3.30pm
+              </p>
+
+              <p class="contact-label">Dinner Time</p>
+
+              <p class="body-4">
+                Monday to Sunday <br>
+                07.00 pm - 12.00am
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+     
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Quaid Avenue Wah Cantt, Near Officer Colony, Wah Cantt, 47040, Rawalpindi, Pakistan
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+
+          <a href="tel:+9251123456" class="body-4 contact-link">Booking Request : +92-51-123456</a>
+
+          <p class="body-4">
+            Open : 09:00 am - 01:00 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Instagram</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
+            target="_blank" class="link">codewithsadee</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
